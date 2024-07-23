@@ -3,6 +3,7 @@ import random
 def get_computer_choice():
     choices = ["rock", "paper", "scissors"]
     return random.choice(choices)
+    
 
 def get_user_choice():
     while True:
@@ -21,7 +22,7 @@ def determine_winner(user_choice, computer_choice):
         return "You win!"
     else:
         return "You lose!"
-
+#score boad
 def main():
     user_score = 0
     computer_score = 0
