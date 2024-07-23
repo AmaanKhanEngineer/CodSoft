@@ -1,6 +1,6 @@
 import random
 import string
-
+#generate
 def generate_password(length):
     # Define the possible characters for the password
     characters = string.ascii_letters + string.digits + string.punctuation
