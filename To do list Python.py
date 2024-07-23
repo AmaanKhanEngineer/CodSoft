@@ -5,7 +5,7 @@ class ToDoList:
     def add_task(self, task):
         self.tasks.append({"task": task, "completed": False})
         print(f"Added task: {task}")
-
+#update
     def update_task(self, task_number, updated_task):
         if 0 <= task_number < len(self.tasks):
             self.tasks[task_number]["task"] = updated_task
